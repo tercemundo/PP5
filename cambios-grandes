@@ -1,0 +1,20 @@
+Dockerfile.
+
+cambiar version 12 x 18 en el alpine
+despues habia un problema bobo
+
+en el pipeline
+
+docker run -d -p 3000:3000 --name $CONTAINER_NAME \
+        $REGISTRY/$APP_NAME:$VERSION || error "Despliegue falló"
+
+
+le falta un \
+
+
+Luego la forma de instalar trivy
+
+por eso genere un fichero trivy-install.sh
+
+
+
